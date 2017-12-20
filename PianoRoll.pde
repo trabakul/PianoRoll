@@ -40,6 +40,8 @@ void draw() {
   text(note,pf.getPianoWidth()+(100-textWidth(note))/2,height-50);
   text(midiValue,pf.getPianoWidth()+(100-textWidth(midiValue))/2,height-20);
   
+  
+  
 }
 
 void mouseMoved() { 
