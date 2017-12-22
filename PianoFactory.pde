@@ -9,14 +9,16 @@ class PianoFactory {
   int numWhite = 52;
   int middleCPos = 39;
   int middleCValue = 60;
+  int [] altBlackPattern= {2,54,54,54,54,54,54,54,0}; //54 0x36
   int [] ablackPattern= { 1,0,
                           1,1,0,1,1,1,0,
+                          1,1,0,1,1,1,0, 
                           1,1,0,1,1,1,0,
                           1,1,0,1,1,1,0,
                           1,1,0,1,1,1,0,
                           1,1,0,1,1,1,0,
                           1,1,0,1,1,1,0,
-                          1,1,0,1,1,1,0,0 };
+                        0 };
   String [] noteNames = {"C","C#/Db","D","D#/Eb","E","F","F#/Gb","G","G#/Ab","A","A#/b","H"};                        
 
   public int getMidiNoteByPos(int pos){
